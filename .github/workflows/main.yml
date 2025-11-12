@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - id: foo
-        uses: AlexZimmz4/hello-world-composite-action@v1
+        uses: AlexZimmz4/hello-world-composite-action@d126ee634944489ef20b10942766ea66978ce129
         with:
           who-to-greet: 'Alex'
       - run: echo random-number "$RANDOM_NUMBER"
